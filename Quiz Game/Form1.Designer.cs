@@ -61,9 +61,10 @@ namespace Quiz_Game
             // 
             // timeLabel
             // 
+            this.timeLabel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.timeLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.timeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timeLabel.Location = new System.Drawing.Point(270, 10);
+            this.timeLabel.Location = new System.Drawing.Point(270, 9);
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(199, 30);
             this.timeLabel.TabIndex = 0;
@@ -92,7 +93,7 @@ namespace Quiz_Game
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(116, 75);
+            this.label2.Location = new System.Drawing.Point(116, 66);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 50);
             this.label2.TabIndex = 3;
@@ -112,7 +113,7 @@ namespace Quiz_Game
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(264, 70);
+            this.label4.Location = new System.Drawing.Point(264, 66);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 50);
             this.label4.TabIndex = 5;
@@ -122,7 +123,7 @@ namespace Quiz_Game
             // sum
             // 
             this.sum.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sum.Location = new System.Drawing.Point(349, 75);
+            this.sum.Location = new System.Drawing.Point(349, 66);
             this.sum.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sum.Name = "sum";
             this.sum.Size = new System.Drawing.Size(100, 41);
@@ -150,7 +151,7 @@ namespace Quiz_Game
             // minusRightLabel
             // 
             this.minusRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minusRightLabel.Location = new System.Drawing.Point(197, 132);
+            this.minusRightLabel.Location = new System.Drawing.Point(198, 132);
             this.minusRightLabel.Name = "minusRightLabel";
             this.minusRightLabel.Size = new System.Drawing.Size(60, 50);
             this.minusRightLabel.TabIndex = 9;
@@ -180,7 +181,7 @@ namespace Quiz_Game
             // quotient
             // 
             this.quotient.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quotient.Location = new System.Drawing.Point(349, 249);
+            this.quotient.Location = new System.Drawing.Point(349, 241);
             this.quotient.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.quotient.Name = "quotient";
             this.quotient.Size = new System.Drawing.Size(100, 41);
@@ -189,7 +190,7 @@ namespace Quiz_Game
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(264, 244);
+            this.label8.Location = new System.Drawing.Point(264, 241);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 50);
             this.label8.TabIndex = 15;
@@ -199,7 +200,7 @@ namespace Quiz_Game
             // divideRightLabel
             // 
             this.divideRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.divideRightLabel.Location = new System.Drawing.Point(197, 244);
+            this.divideRightLabel.Location = new System.Drawing.Point(198, 241);
             this.divideRightLabel.Name = "divideRightLabel";
             this.divideRightLabel.Size = new System.Drawing.Size(60, 50);
             this.divideRightLabel.TabIndex = 14;
@@ -209,7 +210,7 @@ namespace Quiz_Game
             // label10
             // 
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(116, 244);
+            this.label10.Location = new System.Drawing.Point(116, 241);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(60, 50);
             this.label10.TabIndex = 13;
@@ -219,7 +220,7 @@ namespace Quiz_Game
             // divideLeftLabel
             // 
             this.divideLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.divideLeftLabel.Location = new System.Drawing.Point(40, 244);
+            this.divideLeftLabel.Location = new System.Drawing.Point(40, 241);
             this.divideLeftLabel.Name = "divideLeftLabel";
             this.divideLeftLabel.Size = new System.Drawing.Size(60, 50);
             this.divideLeftLabel.TabIndex = 12;
@@ -248,7 +249,7 @@ namespace Quiz_Game
             // timesRightLabel
             // 
             this.timesRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timesRightLabel.Location = new System.Drawing.Point(197, 191);
+            this.timesRightLabel.Location = new System.Drawing.Point(198, 191);
             this.timesRightLabel.Name = "timesRightLabel";
             this.timesRightLabel.Size = new System.Drawing.Size(60, 50);
             this.timesRightLabel.TabIndex = 19;
@@ -258,7 +259,7 @@ namespace Quiz_Game
             // label14
             // 
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(116, 194);
+            this.label14.Location = new System.Drawing.Point(116, 191);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(60, 50);
             this.label14.TabIndex = 18;
@@ -268,7 +269,7 @@ namespace Quiz_Game
             // timesLeftLabel
             // 
             this.timesLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timesLeftLabel.Location = new System.Drawing.Point(40, 186);
+            this.timesLeftLabel.Location = new System.Drawing.Point(40, 191);
             this.timesLeftLabel.Name = "timesLeftLabel";
             this.timesLeftLabel.Size = new System.Drawing.Size(60, 50);
             this.timesLeftLabel.TabIndex = 17;
@@ -279,7 +280,7 @@ namespace Quiz_Game
             // 
             this.startButton.AutoSize = true;
             this.startButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.startButton.Location = new System.Drawing.Point(122, 297);
+            this.startButton.Location = new System.Drawing.Point(136, 297);
             this.startButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(188, 42);
